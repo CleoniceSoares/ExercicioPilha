@@ -6,10 +6,10 @@ class Pilha:
         return self.items == 0
 
     def push (self, item):
-        if len(self.items) < 30: #tamanho qualquer especificado na questão
+        if len(self.items) < 30: 
           self.items.append(item)
         else:
-          print ("não é possível adicionar mais elementos nesta pilha")
+          print ("nao e possivel adicionar novos elementos")
 
     def pop(self):
         return self.items.pop()
